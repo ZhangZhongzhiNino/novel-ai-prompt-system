@@ -1,0 +1,41 @@
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE相关文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 构建和缓存文件
+node_modules/
+build/
+dist/
+.cache/
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+
+# 小说创作过程中的临时文件（可根据需要调整）
+小说创作框架/正文/*/*.bak
+小说创作框架/策划案/*/*.bak
+小说创作框架/创作笔记/*/*.bak
